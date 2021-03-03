@@ -21,12 +21,4 @@ from module01 import fun
 c01 = Myclass()
 """
 
-# 导入方式 3:
-# 使用：可以使用模块中所有成员
-# 本质：将其他成员导入到当前作用域
-# 适用性：当模块中方法过多时
-"""from module01 import *
-from module01 import fun
-c01 = Myclass()
-"""
 
