@@ -9,16 +9,3 @@
 module01.fun()
 module01.Myclass.fun03()
 c01 = module01.Myclass()"""
-
-
-# 导入方式 2：from 模块 import 成员
-# 使用：直接使用成员
-# 本质：将其他模块成员导入到当前作用域中
-# 特别如果该文件中需要用到的函数与模块中的函数重合，则该文件里面的函数会将其覆盖
-# 适用性：面向对象的类
-"""from module01 import Myclass
-from module01 import fun
-c01 = Myclass()
-"""
-
-
